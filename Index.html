@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Appliances</title>
+</head>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        background: #f5f7fa;
+        color: #333;
+
+    }
+    header{
+        background: #0a2540;
+        color: #fff;
+        padding: 15px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header h1{
+        font-size: 24px;
+
+    }
+    nav a {
+        color: #fff;
+        margin-left: 20px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav a:hover {
+        color: #00c2ff;
+    }
+    .hero{
+        height: 80vh;
+        background: linear-gradient(rgba(10,37,64,0.7), rgba(10,37,64,0.7)), url(../../Headphone.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+    }
+    .hero h2{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+     .hero p{
+        font-size: 18px;
+        margin-bottom: 20px;
+     }
+     .btn {
+        background: #00c2ff;
+        padding: 12px 25px;
+        color: #fff;
+        border: none;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+     }
+     .btn:hover {
+        background: #009ed1;
+
+     }
+     .products{
+        padding: 50px;
+        text-align: center;
+     }
+     .products h2{
+        margin-bottom: 30px;
+     }
+     .product-grid{
+        display: flex;
+        gap: 20px;
+     }
+     .card{
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+     }
+     .card img{
+        width: 100%;
+        border-radius: 10px;
+     }
+     .card h3{
+        margin: 15px 0;
+     }
+     .about{
+        background: #0a2540;
+        color: #fff;
+        padding: 50px;
+        text-align: center;
+     }
+     footer{
+        background: #111;
+        color: #ccc;
+        text-align: center;
+        padding: 15px;
+     }
+
+  </style>
+  <body>
+    <header>
+        <h1>Home Tech</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div>
+            <h2>Upgrade Your Home Appliances</h2>
+            <p>Quality, durability, and modern design </p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+    </section>
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="card">
+            <img src="refrigerator.webp" width="150px" height="150px">
+            <h3>Smart Refridgerator</h3>
+            <p>Energy-efficient and spacious desire</p>
+            </div>
+
+            <div class="card">
+            <img src="de53184ddd7f88e4ce0044d16b1b44d3-hi.jpg" width="150px" height="150px">
+            <h3>Microwave</h3>
+            <p>Quick heating with modern features</p>
+            </div>
+
+            <div class="card">
+            <img src="Washing-machine-3d-render-transparent-PNG.png" width="150px" height="150px">
+            <h3>Washing Machine</h3>
+            <p>Efficient cleaning and easy operation</p>
+
+            </div>
+
+            <div class="card">
+            <img src="air_conditioner_PNG63.png" width="150px" height="150px">
+            <h3>Air Condition</h3>
+            <p>Stay cool with advanced cooling technology</p>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="about">
+        <h2>Why Choose Us</h2>
+        <p>We provide top-quality home appliances designed to make your life easier.</p>
+    </section>
+    <footer>
+        <p> ©2026 HomeTech Appliances | All rights reserved </p>
+    </footer>
+
+</body>
+</html>
